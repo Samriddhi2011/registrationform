@@ -1,0 +1,11 @@
+body{
+    background: salmon;
+}
+
+h1{
+    font-weight: bold;
+}
+
+h3{
+    border-style: groove;
+}

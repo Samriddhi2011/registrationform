@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <title>First Registration Form</title> 
+    </head>
+    <body>
+        <br>
+        <br>
+
+    <center>
+        <h1> Students Registration Form</h1> <br> 
+
+        <div id="reg-form">
+            <form>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" size="50" placeholder="Firstname" required> <br><br>
+
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" size="50" placeholder="Lastname" required> <br><br>
+            </div>
+            </form>
+      <div id="Month">
+        <label>Birth Month</label>
+        <select>
+            <option value="0">Month</option>
+            <option value="jan">January</option>
+            <option value="feb">February</option>
+            <option value="mar">March</option>
+            <option value="april">April</option>
+            <option value="may">May</option>
+            <option value="june">June</option>
+            <option value="july">July</option>
+            <option value="aug">August</option>
+            <option value="sep">September</option>
+            <option value="oct">October</option>
+            <option value="nov">November</option>
+            <option value="dec">December</option>
+        </select> <br><br>
+      </div>
+      <div id="course">
+        <label>   
+            Course :  
+            </label>   
+            <select>  
+            <option value="Course">Course</option>  
+            <option value="BCA">BCA</option>  
+            <option value="BBA">BBA</option>  
+            <option value="B.Tech">B.Tech</option>  
+            <option value="MBA">MBA</option>  
+            <option value="MCA">MCA</option>  
+            <option value="M.Tech">M.Tech</option>  
+            </select>  
+              
+            <br>  
+            <br>  
+      </div>
+      
+      <div id="gender">
+        <label>   
+            Gender :  
+            </label><br>  
+            <input type="radio" name="male"/> Male <br>  
+            <input type="radio" name="female"/> Female <br>  
+            <input type="radio" name="other"/> Other  
+            <br>  
+            <br>             
+      </div>
+      <div id="contact">
+        <label>Phone</label>
+        <input type="text" name="phone" size="50" placeholder="+91" required> <br><br>
+         
+      </div>
+       <div id="Address">
+      
+    <label>Current Address : </label>   
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea>   <br> <br> </div>
+
+<div id="email">
+ <label for="email"><b>Email</b></label>  
+ <input type="text" size="50" placeholder="Enter Email" name="email" required>  
+  <br> <br> </div>
+
+  <div id="psw">
+    <label for="psw"><b>Password</b></label>  
+    <input type="password" size="50" placeholder=" Password" name="psw" required>  
+  <br> <br> </div>
+    <label for="psw-repeat"><b>Re-type Password</b></label>  
+    <input type="password" size="50" placeholder="Retype Password" name="psw-repeat" required>  
+    <button type="submit"   class=regbutton">Register</button>    
+</form> <br> <br>
+    <h3 class="btn btn-info" size="5000">Developed by SAMRIDDHI</h3>
+    </center>
+    <script src="script.js"></script>
+</body>  
+</html>  
